@@ -13,6 +13,9 @@ github 地址: [https://github.com/volca/markdown-preview](https://github.com/vo
 - 先clone代码  
 - setting->Extensions 勾选 Developer mode, 点击Load unpacked extension, 选中clone的代码文件夹  
 
+## 3. markdown syntax     
+[http://wowubuntu.com/markdown/](http://wowubuntu.com/markdown/)  
+
 参考资料:  
 
 - [http://www.ooso.net/archives/611](http://www.ooso.net/archives/611)   
