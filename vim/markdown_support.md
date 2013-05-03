@@ -12,6 +12,7 @@ github 地址: [https://github.com/volca/markdown-preview](https://github.com/vo
 
 - 先clone代码  
 - setting->Extensions 勾选 Developer mode, 点击Load unpacked extension, 选中clone的代码文件夹  
+
 ## 3. 设置md文件默认打开程序为chrome(根据操作系统不同进行相应的设置)
 
 随便编辑一个md文件，然后在vim command model下执行`!open %` 就会用默认的浏览器打开  
