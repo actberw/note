@@ -47,6 +47,7 @@ scirbe 依赖于boost, libevent, thrift, fb303(控制scribe节点)
      libthriftnb-0.9.0.so => not found   
      $ echo "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib" >> ~/.bashrc
      $ source ~/.bashrc
+6\. thrift No output language(s) specified, 编辑thrift命令这一行，把参数-cpp 变成-gen cpp
 
 #### 参考链接:
 
