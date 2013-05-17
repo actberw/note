@@ -17,7 +17,7 @@
 编译  
 
      $ ./configure --help #查看帮助信息, --with-libevent， --with-boost用于指定安装位置, --with-python=yes/no类似的可以打开关闭对某些语言得支持，默认全部打开得。
-     $ ./configure --with-ruby=no  CPPFLAGS="-DHAVE_INTTYPES_H -DHAVE_NETINET_IN_H"
+     $ ./configure --with-ruby=no
      $ make
      $ sudo make install
 
