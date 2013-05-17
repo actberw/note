@@ -5,7 +5,7 @@ scirbe 依赖于boost, libevent, thrift, fb303(控制scribe节点)
 见另一篇thrift得文章，这里只说下fb303得安装, fb303 在thrift源码包得contrib目录  
 
      $ cd contrib/fb303
-     $ ./configure CPPFLAGS="-DHAVE_INTTYPES_H -DHAVE_NETINET_IN_H"
+     $ ././bootstrap.sh   
      $ make
      $ sudo make install
 ### 2\. 安装scribe
@@ -25,7 +25,7 @@ scirbe 依赖于boost, libevent, thrift, fb303(控制scribe节点)
 显示hello world 即正常。  
 
 ### 4\.安装遇到得问题  
-1\. 编译fb303的时候: "error: ‘uint32_t’ does not name a type"  
+1\. make的时候: "error: ‘uint32_t’ does not name a type"  
 
 ./configure 需要加参数 CPPFLAGS="-DHAVE_INTTYPES_H -DHAVE_NETINET_IN_H"
 
