@@ -12,6 +12,7 @@ scirbe 依赖于boost, libevent, thrift, fb303(控制scribe节点)
 
      $ git clone https://github.com/facebook/scribe.git
      $ cd scribe
+     $ ./bootstrap.sh
      $ ./configure CPPFLAGS="-DHAVE_INTTYPES_H -DHAVE_NETINET_IN_H -DBOOST_FILESYSTEM_VERSION=2" # -DBOOST_FILESYSTEM_VERSION=2 参数只有在你的boost版本大于1.46的时候需要添加
      $ make 
      $ sudo make install

@@ -8,3 +8,14 @@
     >>> import sys  
     >>> reload(sys.modules[`module_name_str`])  
 然后在重新import.
+
+
+#### ipython auto reload配置
+创建配置
+
+    ipython profile create
+因个人操作系统不同, 配置目录不同 ~/.ipython or ~/.config/ipython , 编辑ipython_config.py, 添加
+
+     c.InteractiveShellApp.exec_lines = []                                          
+     c.InteractiveShellApp.exec_lines.append('%load_ext autoreload')                
+     c.InteractiveShellApp.exec_lines.append('%autoreload 2')
