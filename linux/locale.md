@@ -18,7 +18,7 @@
   
 5. 设置系统默认的local  
 1) dpkg-reconfigure locales  
-2) update-locale  
+2) update-locale   (`sudo update-locale LC_ALL=en_US.utf8 LANG=en_US.utf8 LANGUAGE=en_US:en`)  
 2) 直接编辑 /etc/default/locale(update-locale修改的文件)  
 
 
