@@ -59,3 +59,6 @@
  - 如果使用hash数据库我们可以指定#bnum=xxx(bucket数量)， #xmsiz=xxx(最大内存使用)来提高性能
 
 
+Refer:  
+ - [http://www.cnblogs.com/sunli/archive/2009/03/08/1406178.html](http://www.cnblogs.com/sunli/archive/2009/03/08/1406178.html)  
+ - [http://blog.nosqlfan.com/html/2856.html](http://blog.nosqlfan.com/html/2856.html)
