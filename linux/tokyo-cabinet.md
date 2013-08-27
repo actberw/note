@@ -57,8 +57,14 @@
 5. 优化  
  - Tokyo Cabinet 单个数据库文件记录数超过1亿，性能会急剧下降。Tokyo Tyrant 的新版本支持了数据库文件拆分，例如 ttserver -mul 256 database.tcb 启动TT时，将会自动拆分成256个文件，存取时，根据key哈希到不同的文件
  - 如果使用hash数据库我们可以指定#bnum=xxx(bucket数量)， #xmsiz=xxx(最大内存使用)来提高性能
+ - opts "l"  of  large  option, "d"  of Deflate option, "b" of BZIP2 option, and "t" of TCBS option.
+ - rcnum 指定最大的缓存记录数。
 
+6. 测试  
+ 可以用tokyotyrant自带的工具tcrmttest，用来测试(多线程)对Tokyo Tyrant网络接口的写入、读取移动做效率测试。
 
 Refer:  
  - [http://www.cnblogs.com/sunli/archive/2009/03/08/1406178.html](http://www.cnblogs.com/sunli/archive/2009/03/08/1406178.html)  
  - [http://blog.nosqlfan.com/html/2856.html](http://blog.nosqlfan.com/html/2856.html)
+ - [http://jasonyu.cn/post/32](http://jasonyu.cn/post/32)
+ - [http://tech.uc.cn/?p=195](http://tech.uc.cn/?p=195)
