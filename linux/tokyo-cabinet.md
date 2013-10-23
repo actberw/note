@@ -68,3 +68,12 @@ Refer:
  - [http://blog.nosqlfan.com/html/2856.html](http://blog.nosqlfan.com/html/2856.html)
  - [http://jasonyu.cn/post/32](http://jasonyu.cn/post/32)
  - [http://tech.uc.cn/?p=195](http://tech.uc.cn/?p=195)
+ - [http://www.bigdbahead.com/?p=700](http://www.bigdbahead.com/?p=700)
+
+
+http://hi.baidu.com/leechl/item/c9b281107d9f1011e3f9861c
+http://www.cnblogs.com/sunli/archive/2009/08/25/1553689.html
+
+
+http://www.conigliaro.org/2010/04/28/tokyo-tyrant-update-log-ulog-management/
+http://serverfault.com/questions/26777/tokyo-tyrant-ulog-update-log-management

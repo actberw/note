@@ -1,0 +1,1 @@
+0xA0 (Unicode) is 0xC2A0 in UTF-8. .encode('utf8') will just take your Unicode 0xA0 and replace with UTF-8's 0xC2A0. Hence the apparition of 0xC2s... Encoding is not replacing, as you've probably realized now.
