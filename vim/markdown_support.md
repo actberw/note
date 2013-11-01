@@ -1,4 +1,4 @@
-<h1 style="text-align:center;">vim增加markdown支持及实时预览</h1>
+###vim增加markdown支持及实时预览
 ---
 ## 1. 语法高亮支持  
 首先需要安装插件: [https://github.com/plasticboy/vim-markdown](https://github.com/plasticboy/vim-markdown), 如果用得pathogen,可以用下面得命令安装  
