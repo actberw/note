@@ -1,17 +1,24 @@
 ### ubuntu install salt
 
-#### 安装
-1. install `sudo aptitude install m2crypto`
-2. `sudo pip install salt`
+1. 安装
 
-#### 启动
+        sudo aptitude install m2crypto python-dev
+        sudo pip install salt
+        # 查看版本
+        salt --version
+2. 配置
 
-1. `sudo salt-minion -d` or `sudo salt-master -d`
+3. 启动
+        
+        # 启动主结点
+        sudo salt-master -d
+        # 启动子结点
+        sudo salt-minion -d
 
-#### 停止
+4. 停止
 
-1. `kill -TERM pid`
+        kill -TERM pid
 
-#### 证书授权
+4. 证书授权
 
 在master上执行`salt-key -L`, 执行`salt-key -a name` 添加未授权的证书。
