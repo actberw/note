@@ -1,9 +1,12 @@
 ### ubuntu install salt
 
 1. 安装
-
-        sudo aptitude install m2crypto python-dev
-        sudo pip install salt
+        
+        # ubuntu
+        sudo aptitude install m2crypto python-dev 
+        # centos 
+        # sudo yum install python-devel m2crypto
+        sudo pip install salt==0.17.2
         # 查看版本
         salt --version
 2. 配置
@@ -20,5 +23,8 @@
         kill -TERM pid
 
 4. 证书授权
-
 在master上执行`salt-key -L`, 执行`salt-key -a name` 添加未授权的证书。
+
+注: 0.17.2的 master有一个bug，具体见refer#1
+####refer:
+ - https://github.com/saltstack/salt/issues/8176

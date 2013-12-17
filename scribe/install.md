@@ -51,9 +51,10 @@ scirbe 依赖于boost, libevent, thrift, fb303(控制scribe节点)
      或者执行一下ldconfig
 6\. thrift No output language(s) specified, 编辑src/Makefile thrift命令这一行，把参数-cpp 变成-gen cpp
 
-#### 参考链接:
+#### refer:
 
-1. http://note2share.com/post/32b5f6a7-f069-44a4-9b7f-920c14cb42e5
-2. http://www.nosql.se/2012/10/tutorial-installing-scribe-on-debianubuntu/
-3. http://my.oschina.net/guol/blog/110236
+- http://note2share.com/post/32b5f6a7-f069-44a4-9b7f-920c14cb42e5
+- http://www.nosql.se/2012/10/tutorial-installing-scribe-on-debianubuntu/
+- http://my.oschina.net/guol/blog/110236
+- http://cyr520.blog.51cto.com/714067/1209485
 
