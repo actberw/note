@@ -9,17 +9,15 @@
         sudo groupadd mysql;sudo useradd -r -g mysql mysql
 3. 安装默认数据库
 
-        sudo mysql_install_db  --datadir=datadir
-4. 配置并启动mysql, 默认msyql安装到*/opt/mysql/server-5.6*目录 
+        sudo mysql_install_db  --datadir=datadir --user=mysql
+4. 配置mysql, 默认msyql安装到*/opt/mysql/server-5.6*目录 
 
-        ln -s /opt/mysql/server-5.6 /usr/lcoal/mysql
+        ln -s /opt/mysql/server-5.6 /usr/local/mysql
         # 修改 PATH
         export PATH=$PATH:/usr/local/mysql/bin
         # init.d脚本
         cd /opt/mysql/server-5.6;sudo cp support-files/mysql.server /etc/init.d/mysql
 
-        # 启动mysql
-        sudo /etc/init.d/mysql start
 5. 修改配置文件
 
         # 修改配置文件
@@ -89,6 +87,8 @@
 
 6. 修改root密码，删除匿名账户和测试数据库
 
+        # 启动mysql
+        sudo /etc/init.d/mysql start
         mysql_secure_installation # 可能需要 ln -s /var/run/mysqld/mysqld.sock /tmp/mysql.sock
 
 7. 增加账户,授权

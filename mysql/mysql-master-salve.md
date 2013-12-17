@@ -55,7 +55,7 @@
         -> MASTER_PASSWORD='replication_password',
         -> MASTER_LOG_FILE='recorded_log_file_name',
         -> MASTER_LOG_POS=recorded_log_position;
-        start salve;
+        start slave;
 
 7. 复制得管理
 
