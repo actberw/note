@@ -1,7 +1,9 @@
 ###python连接postgresql
 1. 安装依赖
 
-        sudo aptitude install libpq-dev
+        sudo aptitude install libpq-dev  
+        # centos 
+        # sudo yum install postgresql-devel
         sudo pip install psycopg2
 2. 使用
 
