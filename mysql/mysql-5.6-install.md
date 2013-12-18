@@ -46,11 +46,12 @@
         lc-messages-dir = /usr/share/mysql
         skip-external-locking
         explicit_defaults_for_timestamp # 5.6新增选项，控制timestamp字段得值
+        tx_isolation             = "REPEATABLE-READ"
 
         # * Query Cache Configuration
         #
-        # query_cache_limit     = 1M
-        # query_cache_size        = 24M # 查询缓存大小，默认query cache是关闭得,增加query_cache_type=1可以开启
+        # query_cache_limit      = 1M
+        # query_cache_size       = 24M # 查询缓存大小，默认query cache是关闭得,增加query_cache_type=1可以开启
 
         # 日志,bin log在主从设置里讲
         #general_log             = 1

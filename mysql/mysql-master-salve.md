@@ -9,6 +9,7 @@
         log-bin-index           = master-bin.index
         sync_binlog             = 0 # 0:依赖操作系统
                                     # 1~n: 在每sync_binlog 次bin log写操作后同步到磁盘
+        binlog_cache_size       = 32k
         expire_logs_days        = 5
         max_binlog_size         = 128M
         #binlog-do-db           = db_name 
@@ -22,6 +23,7 @@
         # relay-log=file_name        # 默认值是: host_name-relay-bin
         # relay-log-index=file_name  # 默认值是: host_name-relay-bin.index
         # max_relay_log_size    = 1G # 默认值是: 1G
+        # relay_log_space_limit = 2G # relay log 占用的磁盘最大空间
         # sync_relay_log        = 0     # 同sync_binlog, 0 每次写都同步到磁盘
 
         # log-slave-updates          # 配合log-bin控制是否slave是否写bin log
