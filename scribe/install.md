@@ -5,7 +5,7 @@ scirbe 依赖于boost, libevent, thrift, fb303(控制scribe节点)
 见另一篇thrift得文章，这里只说下fb303得安装, fb303 在thrift源码包得contrib目录  
 
      $ cd contrib/fb303
-     $ ././bootstrap.sh   
+     $ ./bootstrap.sh   
      $ make
      $ sudo make install
 ### 2\. 安装scribe
