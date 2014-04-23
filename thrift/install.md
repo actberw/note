@@ -7,7 +7,7 @@
         $ aptitude install autoconf automake libtool pkg-config libtool libevent-dev libevent-2.0-5 libboost-all-dev
 ### 2. 下载源代码  
 
-        $ wget http://ftp.kddilabs.jp/infosystems/apache/thrift/0.9.0/thrift-0.9.0.tar.gz
+        $ wget http://archive.apache.org/dist/thrift/0.9.0/thrift-0.9.0.tar.gz
 ### 3. 安装
  - 解压缩  
 
