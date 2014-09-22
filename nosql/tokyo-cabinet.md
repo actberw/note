@@ -2,6 +2,8 @@
 1. 安装tokyo cabinet   
 
      $ sudo aptitude install libbz2-dev  
+     # centos
+     # sudo yum install bzip2-devel 
      $ wget http://fallabs.com/tokyocabinet/tokyocabinet-1.4.48.tar.gz # downlaod source code  
      $ tar zxvf tokyocabinet-1.4.48.tar.gz; cd tokyocabinet-1.4.48;  
      $ ./configure  
@@ -63,7 +65,7 @@
 6. 测试  
  可以用tokyotyrant自带的工具tcrmttest，用来测试(多线程)对Tokyo Tyrant网络接口的写入、读取移动做效率测试。
 
-Refer:  
+####Refer:  
  - [http://www.cnblogs.com/sunli/archive/2009/03/08/1406178.html](http://www.cnblogs.com/sunli/archive/2009/03/08/1406178.html)  
  - [http://blog.nosqlfan.com/html/2856.html](http://blog.nosqlfan.com/html/2856.html)
  - [http://jasonyu.cn/post/32](http://jasonyu.cn/post/32)

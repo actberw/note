@@ -7,3 +7,6 @@
 2. 修改时区
     
     $ dpkg-reconfigure tzdata
+
+####refer:
+- http://blog.robotshell.org/2012/linux-time/

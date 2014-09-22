@@ -1,4 +1,5 @@
 ###linux运行级别
+
 1. 运行级别
 运行级别 定义了在 Linux 系统的目前状态（或运行级别）下能够完成哪些任务。每个 Linux 系统支持三种基本的运行级别，以及完成正常操作所需的一个或多个运行级别。基本的运行级别如 表 1 中所示
 
@@ -15,7 +16,7 @@
   3    | 联网的多用户模式
   5    | 联网并且使用 X Window 系统的多用户模式 
 
-Slackware 发布版本对运行了 X Window 系统的整个系统使用了运行级别 4 而非 5。Debian 及其派生物，比如 Ubuntu，对所有的多用户模式使用了单一运行级别，通常为运行级别 2。请务必参考适用于您的发布版本的文档。
+   Slackware 发布版本对运行了 X Window 系统的整个系统使用了运行级别 4 而非 5。Debian 及其派生物，比如 Ubuntu，对所有的多用户模式使用了单一运行级别，通常为运行级别 2。请务必参考适用于您的发布版本的文档。
 
 2. 默认的运行级别
 在启动 Linux 系统时，默认的运行级别是由 /etc/inittab 中的 id: 条目确定的, ubuntu中在/etc/init/rc-sysinit.conf的DEFAULT_RUNLEVEL变量。
@@ -25,3 +26,6 @@ Slackware 发布版本对运行了 X Window 系统的整个系统使用了运行
 
 3. 更改运行级别
 要执行永久性的更改，可以编辑 /etc/inittab 并将默认级别更改为如上所示的级别, 也可以使用 telinit n命令临时转到另一个运行级别
+
+####refer:
+- http://www.ibm.com/developerworks/cn/linux/l-lpic1-v3-101-3/

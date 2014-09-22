@@ -75,6 +75,7 @@
 
         # innodb 优化, http://dev.mysql.com/doc/refman/5.6/en/innodb-parameters.html
         innodb_file_per_table = 1 # 默认是共享表空间，这个选项控制是否使用独立表空间
+        #innodb_file_format    = Antelope
         innodb_buffer_pool_size = 2G # innodb 索引和数据缓存大小
 
         # redo 日志选项
@@ -100,7 +101,7 @@
         # create database        
         create database test_1 DEFAULT CHARACTER SET utf8;
         # grant, revoke 
-        grant SELECT,INSERT,UPDATE,DELETE on test_1.* to 'acc'@'%';
+        grant SELECT,INSERT,UPDATE,DELETE,LOCK TABLES on test_1.* to 'acc'@'%';
 
 8. 遇到得错误提示:  
 
